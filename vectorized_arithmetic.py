@@ -48,13 +48,3 @@ if __name__ == '__main__':
     plt.legend(loc='upper left')
     plt.savefig('ndarray.png')
 
-
-    # plt.plot(x_ticks, in_sample_corr, label='In sample correlation')
-    # plt.plot(x_ticks, out_of_sample_corr, label='Out of sample correlation')
-    # plt.xlabel('Bags')
-    # plt.ylabel('Correlation')
-    # plt.legend(loc='lower right')
-    # plt.title('Bag Learner Correlation: bags=[1...' + str(bags) + '], leaf_size=1')
-    # plt.savefig('bag_corr_red_vary_bags.png')
-    # plt.close()
-
